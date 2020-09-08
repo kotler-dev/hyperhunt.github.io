@@ -1,0 +1,31 @@
+@media only screen and (max-width:480px) {
+    .application {
+        min-width: 310px;
+        width: 95%;
+    }
+
+    .container {
+        min-height: 70vh;
+    }
+
+    .vala-title-short {
+        display: block;
+    }
+
+    /* #expand-toggle:checked ~ *.vala-title-long {
+    display: block;
+  } */
+    .vala-title-long {
+        display: none;
+    }
+
+    .page {
+        display: none;
+    }
+}
+
+/*
+@media (max-width:480px) and (orientation: landscape) {
+
+
+}*/
